@@ -1,0 +1,212 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1171F5;
+}
+.buttons {
+    border-style: solid;
+    border-color: white;
+    border-radius: 1.5em;
+    border-width: .2em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #41C5FF;
+    width: 25em;
+    height: auto;
+    transition-duration: 0.3s;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+h1  {
+    font-size: 3em;
+    color: white;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+.buttons:hover{
+    width: 28em;
+    height:auto;
+    color: yellow;
+    transition-duration: 0.2s;
+}
+h2 {
+    font-size: 2em;
+    color:white;
+    padding-left: .5em;
+    padding-right: .5em;
+    font-family:  Helvetica, Arial, sans-serif;
+
+}
+
+p {
+    font-size: 2em;
+    color: white;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+.timeMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.totalTime{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+
+}
+
+.hour{
+    border-style: solid;
+    border-color: white;
+    border-radius: 2.5em;
+    width: 8em;
+    height: auto;
+    background-color: #41C5FF;
+    
+}
+.minute{
+    border-style: solid;
+    border-color: white;
+    border-radius: 2.5em;
+    width: 8em;
+    height: auto;
+    background-color: #41C5FF;
+}
+
+.intervals{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.numOfIntervals{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    
+   
+
+}
+
+.numOfIntervals p{
+    font-family:  Helvetica, Arial, sans-serif;
+    padding-right: .2em;
+    
+}
+
+.number{
+    border-style: solid;
+    border-color: white;
+    border-radius: 2.5em;
+    width: 5em;
+    height: 5em;
+    background-color: #41C5FF;
+    
+
+}
+.studyNumber{
+    border-style: solid;
+    border-color: white;
+    border-radius: 2.5em;
+    width: 8em;
+    height: auto;
+    background-color: #41C5FF;
+    text-align: center;
+
+
+}
+
+.breakNumber{
+    border-style: solid;
+    border-color: white;
+    border-radius: 2.5em;
+    width: 8em;
+    height: auto;
+    background-color: #41C5FF;
+    text-align: center;
+
+
+}
+
+.timePerInterval{
+    display: flex;
+    flex-direction: row;
+}
+
+.timePerInterval p{
+    padding-right: .2em;
+    font-family:  Helvetica, Arial, sans-serif;
+    
+    
+}
+
+.startButton{
+    border-style: solid;
+    border-color: white;
+    border-radius: 2.5em;
+    width: 15em;
+    height: auto;
+    background-color: #41C5FF;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+
+.startButton:hover{
+    width: 17em;
+    height:auto;
+    color: yellow;
+    transition-duration: 0.2s;
+}
+
+.timer {
+    border-style: solid;
+    border-radius: 25em;
+    width:25em;
+    height: 25em;
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:#575757 ;
+    border-color:#707070 ;
+    border-width:.35em ;
+}
+
+.timer p{
+    font-size: 6em;
+
+}
+
+.timerNav{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.timerNav p{
+   margin:1em;
+   border-style: solid;
+   border-color: white;
+   border-radius: 2.5em;
+   width: 4em;
+   height: auto;
+   background-color: #41C5FF;
+   transition-duration: 0.3s;
+   text-align: center;
+
+}
+
+.timerNav p:hover{
+    transition-duration: 0.2s;
+    width:6em;
+}
+
